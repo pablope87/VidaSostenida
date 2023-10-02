@@ -1,0 +1,54 @@
+/* Hero main */
+.hero{
+    background-image: url(../../img/hero/hero2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.hero h3{
+    font-family: "LT Museum", sans-serif;
+    font-size: 2rem;
+    color: #338A6F; /* #338A6F #004740 */
+    padding-top: 8%;
+}
+
+.hero h1{
+    font-family: "LT Museum", sans-serif;
+    font-size: 4rem;
+    color: #338A6F;
+
+}
+
+.hero p{
+    color: #000000;
+    text-align: center;
+}
+/* End Hero Main */
+
+/* ---------- */
+
+/* Heros secundarios */
+
+.hero2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/hero/hero2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    }
+
+.hero2{
+    font-family: "LT Museum", sans-serif;
+    color: #ffffff;
+    padding-top: 8%;
+}
+
+/* End Hero secundarios */

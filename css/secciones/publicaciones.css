@@ -1,3 +1,4 @@
+/* Publicaciones Main */
 #section-publicaciones .container{
     display: flex;
     flex-direction: column;
@@ -27,7 +28,6 @@
 }
 
 #publicaciones img{
-
     margin: 30px 0px 30px 0px;
 }
 
@@ -38,14 +38,33 @@
     
 }
 
+/* Sub Pages */
+
+.publicaciones-sub-pages p{
+    text-align: left;
+}
+
+.publicaciones-sub-pages, .img-fluid{
+    margin: 10px 0px 30px 0px;
+    text-align: left;
+}
+
+#publicaciones-sub-pages_fechasYhora{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
     /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
     #section-publicaciones .container{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items:center ;
-
     }
 
     #section-publicaciones .card{
@@ -53,10 +72,31 @@
         min-width: 230px;
         height: 450px;
     }
+
+    .publicaciones-sub-pages .titulo{
+        font-size: 15px;
     }
 
-    /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
+    .publicaciones-sub-pages p{
+        font-size: 20px;
+
+    }
+
+    .publicaciones-sub-pages .display-5{
+        font-size: 50px;
+
+    }
+
+    #publicaciones-sub-pages_fechasYhora{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .publicaciones-sub-pages, .img-fluid{
+        margin: 10px 0px 30px 0px;
+        text-align: left;
+    }
+
 }
 

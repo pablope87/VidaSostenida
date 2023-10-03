@@ -1,7 +1,7 @@
 /* Quienes somos main page */
 #quienes-somos{
  padding: 30px 30px;
- text-align: left;
+ text-align: center;
 }
 
 
@@ -15,6 +15,8 @@
 .portraits img{
     width: 280px;
     padding: 20px 0px 20px 0px;
+
+
 }
 
 .portraits p{
@@ -27,7 +29,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .portraits img{
-        width: 200px;
+
     }
 
 }

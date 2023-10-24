@@ -1,6 +1,6 @@
 /* Hero main */
 .hero{
-    background-image: url(../../img/hero/hero3.png);
+    background-image: url(../../img/hero/hero4.png);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -13,7 +13,8 @@
 .hero h3{
     font-family: "LT Museum", sans-serif;
     font-size: 2rem;
-    color: #004740; /* #338A6F #004740 */
+    /* color: #004740;  */
+    color: #ffffff;
     padding-top: 8%;
     /* text-shadow: 1px 1px #7b7b7b; */
 }
@@ -21,13 +22,14 @@
 .hero h1{
     font-family: "LT Museum", sans-serif;
     font-size: 4rem;
-    color: #004740;
+    /* color: #004740; */
+    color: #ffffff;
     /* text-shadow: 1px 1px #7b7b7b; */
 
 }
 
 .hero p{
-    color: #000000;
+    color: #e4e5e4;
     text-align: center;
     
 }

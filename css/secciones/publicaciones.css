@@ -100,3 +100,11 @@
 
 }
 
+@media only screen and (min-width: 768px) {
+    #section-publicaciones .card{
+        width: 400px;
+        height: 450px;
+    }
+
+}
+

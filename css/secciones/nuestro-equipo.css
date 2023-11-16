@@ -3,9 +3,12 @@
     
 }
 
-#section-equipo p{
+.portraits p{
     text-align: center;
-    
+}
+
+.portraits .texto_bio{
+    text-align: left;
 }
 
 .fotos-equipo img{

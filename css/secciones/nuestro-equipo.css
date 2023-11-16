@@ -1,6 +1,11 @@
 #section-equipo{
     margin: 30px;
-    
+
+}
+
+#section-equipo p{
+    margin: 30px;
+    text-align: center;
 }
 
 .portraits p{

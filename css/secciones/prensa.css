@@ -1,4 +1,9 @@
-.notas img{
-    border: 0;
-    padding: 0;
+.notas{
+    margin: 20px 30px;
 }
+
+.notas a{
+    text-decoration: none;
+    color:black;
+}
+

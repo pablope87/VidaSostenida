@@ -9,17 +9,12 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-
     }
-
-
-
 
 .tabla{
 padding: 20px;
 margin-bottom: 20px;
 overflow:scroll;
-
 }
 
 .titulo_tabla p{

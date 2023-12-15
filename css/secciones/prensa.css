@@ -1,5 +1,14 @@
 .notas{
     margin: 20px 30px;
+    min-height: 400px;
+    min-width: 286px;
+
+    
+
+}
+.notas img{ 
+    
+    height: 215px;
 }
 
 .notas a{
@@ -8,3 +17,14 @@
 
 }
 
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+
+        .notas{
+            display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            align-items: center;
+        }
+
+    }

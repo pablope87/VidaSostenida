@@ -55,6 +55,10 @@
     padding: 0;
 }
 
+#carousel-nota4{
+    margin: 10px 0px 10px 0px;
+}
+
 
 
     /* Medium devices (landscape tablets, 768px and up) */
@@ -106,5 +110,9 @@
         height: 450px;
     }
 
+    #carousel-nota4{
+        width: 800px;
+        height: auto;
+    }
 }
 

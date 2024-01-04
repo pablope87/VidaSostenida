@@ -17,11 +17,12 @@ margin-bottom: 20px;
 overflow:scroll;
 }
 
-.titulo_tabla p{
+.display-5 p{
     padding: 20px;
     text-align: center;
 }
 
 .boton_solicitar_info{
-    padding-bottom: 30px;
+    padding: 30px;
 }
+

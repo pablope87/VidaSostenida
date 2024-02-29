@@ -1,0 +1,31 @@
+.investigation-container {
+    border-bottom: 0.2px solid rgb(134, 134, 134);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.investigation-container img{
+    border-radius: 5px;
+}
+
+.investigation-container p{
+    padding-top: 8px;
+}
+
+.investigation-container span, i{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.investigation-row{
+    margin: 30px 0px;
+}    
+
+.investigation-row a{
+    margin: 0px 0px;
+}   
+
+/* @media only screen and (min-width: 768px)  */

@@ -1,8 +1,33 @@
+.investigation-container{
+
+}
+
+.col-num-1{
+    display: none;
+}
+
+.investigation-row{
+
+}
+
+
+
+
+@media only screen and (min-width: 992px){
+
+.col-num-1{
+    display: flex;
+}
+
 .investigation-container {
     border-bottom: 0.2px solid rgb(134, 134, 134);
     margin-bottom: 10px;
     padding-bottom: 10px;
+}
+
+.investigation-col-right{
     display: flex;
+    flex-direction: column;
     justify-content: left;
     text-align: left;
 }
@@ -18,6 +43,7 @@
 .investigation-container span, i{
     font-size: 12px;
     margin-bottom: 15px;
+    text-align: left;
 }
 
 .investigation-row{
@@ -27,5 +53,11 @@
 .investigation-row a{
     margin: 0px 0px;
 }   
+
+
+
+
+}
+
 
 /* @media only screen and (min-width: 768px)  */

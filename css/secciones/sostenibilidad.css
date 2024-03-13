@@ -24,24 +24,28 @@
 }
 
 
-
- @media only screen and (min-width: 768px) {
-
-    .contenedor-imagen-y-texto{
-
+@media only screen and (min-width: 768px) {
+    .sostenibilidad-container {
+        display: flex;
+        align-items: center;
     }
+
+
 
     .sostenibilidad-contenedor-imagen{
-        
+        width: 30%;
     }
 
-    .sostenibilidad-contenedor-texto{
+    .sostenibilidad-contenedor-texto {
+        width: 70%;
 
     }
 
- }
 
-
+    .sostenibilidad-contenedor-texto {
+        text-align: left;
+    }
+}
 
 
 

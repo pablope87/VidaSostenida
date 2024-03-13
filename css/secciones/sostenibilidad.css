@@ -1,26 +1,78 @@
 #sostenibilidad{
-    margin: 30px;
+    padding: 30px 15px;
+} 
+
+.sostenibilidad-texto-intro{
+    margin-bottom: 100px;
+} 
+
+.sostenibilidad-contenedor-imagen{
+    margin: 30px 0px 20px 0px;
+}
+
+.sostenibilidad-container {
+    border-bottom: 0.2px solid rgb(134, 134, 134);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
-.investigation-container{
 
-}
-
-.col-num-1{
-    display: none;
-}
-
-.investigation-row{
-
+.sostenibilidad-contenedor-texto h5{
+    font-weight: 600;
+    text-align: left;
 }
 
 
 
+ @media only screen and (min-width: 768px) {
 
-@media only screen and (min-width: 992px){
+    .contenedor-imagen-y-texto{
 
-.col-num-1{
+    }
+
+    .sostenibilidad-contenedor-imagen{
+        
+    }
+
+    .sostenibilidad-contenedor-texto{
+
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .col-num-1{
     display: flex;
 }
 
@@ -63,6 +115,3 @@
 
 
 }
-
-
-/* @media only screen and (min-width: 768px)  */

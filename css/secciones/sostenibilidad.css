@@ -20,11 +20,15 @@
 
 .sostenibilidad-contenedor-texto h5{
     font-weight: 600;
-    text-align: left;
+    text-align: center;
+}
+
+.sostenibilidad-contenedor-texto p{
+    text-align: center;
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
     .sostenibilidad-container {
         display: flex;
         align-items: center;
@@ -34,6 +38,7 @@
 
     .sostenibilidad-contenedor-imagen{
         width: 30%;
+        text-align: left;
     }
 
     .sostenibilidad-contenedor-texto {
@@ -43,6 +48,15 @@
 
 
     .sostenibilidad-contenedor-texto {
+        text-align: left;
+    }
+
+    .sostenibilidad-contenedor-texto h5{
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .sostenibilidad-contenedor-texto p{
         text-align: left;
     }
 }

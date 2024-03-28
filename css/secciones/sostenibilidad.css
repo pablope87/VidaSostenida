@@ -16,8 +16,6 @@
     padding-bottom: 20px;
 }
 
-
-
 .sostenibilidad-contenedor-texto h5{
     font-weight: 600;
     text-align: center;
@@ -25,6 +23,10 @@
 
 .sostenibilidad-contenedor-texto p{
     text-align: center;
+}
+
+.sostenibilidad-contenedor-texto h5{
+margin-top: 10px;
 }
 
 

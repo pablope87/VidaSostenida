@@ -25,8 +25,8 @@
     margin-bottom: 15px;
 }
 
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
+
+    @media only screen and (min-width: 1200px) {
 
         .notas {
             display: flex;
@@ -45,3 +45,24 @@
         }
 
     }
+
+
+        @media only screen and (min-width: 768px) {
+
+            .notas {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items:center ;
+            
+            }
+    
+            .card{
+                height: 400px;
+                width: 288px;
+                max-height: 400px ;
+                max-width: 288px;
+            
+            }
+    
+        }

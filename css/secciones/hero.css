@@ -1,37 +1,39 @@
 /* Hero main */
 .hero{
-    background-image: url(../../img/hero/hero-principal2.webp);
+    background-image: url(../../img/hero/hero-hojaxhoja.webp);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: left;
+    padding-left: 12%;
+    font-family: "Patrick Hand SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 
 .hero h3{
-    font-family: "LT Museum", sans-serif;
-
-    /* color: #004740;  */
-    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    color: #004740;
     padding-top: 8%;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 5.5rem;
 }
 
 .hero h1{
-    font-family: "LT Museum", sans-serif;
-
-    /* color: #004740; */
     color: #ffffff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 7.5rem;
 
 }
 
 .hero p{
-    color: #000000;
-    text-align: center;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    color: #E1E1DE;
+    max-width: 35%;
 }
 
 
